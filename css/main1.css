@@ -1,0 +1,130 @@
+/* Inserta tu codigo aqui */
+.navbar.navbar-default {
+	min-height: 60px;
+	background-color: black;
+	margin-bottom: 0px;
+}
+.navbar-brand {
+	height: 100px;
+}
+/* Responsive */
+p{
+	font-family: courgette, cursive;
+}
+/*header{/*caja negra de header*/
+	margin: 0;
+	background-color: black;
+}*/
+ul li{/*darle formato al menu*/
+	display: inline-block;
+	padding: 2%;
+}
+section{/*fondo gris de las section*/
+	background-color: #313333;
+}
+/*.logo{
+	width: 80%;
+	height: 10%;
+}*/
+
+.imgheader{/*imagen grande*/
+	background-image: url(../image/header-image.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 100%;
+}
+.cajaspring{/*caja negra sobre imagen grande*/
+	background-color: black;
+	width:50%; 
+	height: 50%;
+	margin-top: 8%;
+	margin-left: 25%;
+}
+.cajanegra{/*cajas negras debajo de las imagenes*/
+	background-color: black;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 8em;
+	vertical-align: middle;
+}
+.naranja{/*letras naranja*/
+	color:orange;
+}
+.blanco{/*letras blanco*/
+	color: white;
+}
+.img{/*imagenes peqieñas*/
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	margin-top: 5%;
+}
+.imggrande{/*imagen a lado de aside*/
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 30em;
+	vertical-align: middle;
+	margin-top: 5%;
+}
+.cajanegra2{/*caja negra debajo de imagen 
+	al lado de aside*/
+	background-color: black;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+iframe{/*posicion de video*/
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 30em;
+	vertical-align: middle;
+}
+input{/*buscador*/
+	background-color: gray;
+	size:50%;
+	margin: 4%;
+	width: 29em;
+	height: 5em;
+}
+.cajasearch{/*cuadro de fondo de buscador*/
+	background-color: black;
+	width: 32em;
+	height: 8em;
+	margin-top: 5%;
+}
+.fondonegro{/*fondo negro aside*/
+	background-color: black;
+	margin-top: 5%;
+}
+.imgaside{/*imagen del aside*/
+	width: 100%;
+	height: 100%;
+}
+i{
+	color: white;
+	margin: 5%;
+}
+footer{/*caja negra de footer negro*/
+	margin: 0;
+	background-color: black;
+}
+@media screen and (max-width: 600px) {
+aside{
+	display: none !important;/*desaparece el aside a modo
+	responsive*/
+}
+	@media (min-width: 768px)
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: invisible !important;
+}
